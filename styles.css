@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+background: linear-gradient(to bottom, #ffc400, rgb(128, 0, 117));
+padding: 10px;
+position: sticky;
+text-align: center;
+padding-bottom: 50px;
+font-size: large;
+color: aliceblue;
+
+
+}
+
+nav a{
+    font-size: large;
+color: white;
+}
+section p{
+    color:black
+}
+p   
+{
+    font-size:larger;
+}
+
+
+img:hover{
+transform:scale(1.2);
+
+}
+main{
+    padding-top: 50px;
+    background: linear-gradient(to bottom, #ffae00, rgb(128, 0, 79));
+
+display:flex;
+  justify-content: space-evenly;
+min-height: 100vh;
+width: 100vw;
+}
+
+.right-clocks{
+    text-align: right;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+main section img {
+  width: 30%;
+  height: auto;
+  transition: transform 0.3s;
+}
+.center-clocks img{
+width: 70%;
+
+}
+
+.center-clocks{
+    text-align: center;
+}
+
+main section{
+    width: 300px;
+}
+
